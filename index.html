@@ -1,1 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitroox | Systems Programmer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
 
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <main class="container">
+        
+        <section id="hero" class="hero-section">
+            <div class="glass-card hero-card">
+                <h1 class="glitch-text">Nitroox<span class="dot">.</span>dev</h1>
+                <h2 class="subtitle">Programmer • Reverse Engineer • Low-level Enthusiast</h2>
+                <p class="bio">
+                    I explore the depths of software and hardware architecture. Specialized in C/C++ development, 
+                    analyzing binary structures, and understanding system internals. 
+                    Focused on performance, memory management, and clean code.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#footer" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h3 class="section-title">/about_me</h3>
+            <div class="grid-2">
+                <div class="glass-card">
+                    <h4><span class="accent">></span> Technical Arsenal</h4>
+                    <ul class="skills-list">
+                        <li>C / C++</li>
+                        <li>Java</li>
+                        <li>Arch Linux</li>
+                        <li>GDB / LLDB</li>
+                        <li>Ghidra / IDA</li>
+                        <li>ELF & PE Analysis</li>
+                        <li>Bash / Python</li>
+                        <li>Networking (Sockets)</li>
+                        <li>Git / Make</li>
+                    </ul>
+                </div>
+
+                <div class="glass-card focus-card">
+                    <h4><span class="accent">></span> Current Focus</h4>
+                    <p>
+                        Currently deepening my knowledge in Linux kernel internals and driver development. 
+                        Active in researching legacy binary formats and optimizing low-level algorithms.
+                    </p>
+                    <div class="status-indicator">
+                        <span class="pulse"></span> Open to collaboration
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h3 class="section-title">/projects</h3>
+            <div class="projects-grid">
+                
+                <div class="glass-card project-card">
+                    <div class="project-header">
+                        <h4>Project One</h4>
+                        <div class="tech-stack">
+                            <span>C++</span>
+                            <span>Linux</span>
+                            <span>pthreads</span>
+                        </div>
+                    </div>
+                    <p class="project-desc">
+                        A high-performance multi-threaded server application designed to handle concurrent connections with minimal latency. Implements custom memory pooling and lock-free data structures.
+                    </p>
+                    <a href="https://github.com/muirbil/REPO" target="_blank" class="btn-link">
+                        GitHub Repo 
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                    </a>
+                </div>
+
+                </div>
+        </section>
+
+    </main>
+
+    <footer id="footer">
+        <div class="glass-panel footer-content">
+            <div class="social-links">
+                <a href="https://github.com/USERNAME" target="_blank" class="social-btn" title="GitHub">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+                <a href="https://t.me/USERNAME" target="_blank" class="social-btn" title="Telegram">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                </a>
+                <a href="mailto:me@example.com" class="social-btn" title="Email">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </a>
+            </div>
+            <p class="copyright">© 2026 Nitroox. Built with ❤️ and glass.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
